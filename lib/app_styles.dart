@@ -14,7 +14,10 @@ const Color kLighterBlue = Color(0xFFC1D4F9);
 
 const Color kDarkBlue = Color(0xFF19202D);
 
+const Color kBorderColour = Color(0xFFEEEEEE);
+
 const double kBorderRadius = 16.0;
+const double kPaddingHorizontal = 40.0;
 
 final kBorder = OutlineInputBorder(
   borderRadius: BorderRadius.circular(kBorderRadius),

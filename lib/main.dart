@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:news_app_ui/news_detail_screen.dart';
 import 'app_styles.dart';
 import 'size_config.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -30,7 +31,7 @@ class _MyAppState extends State<MyApp> {
         debugShowCheckedModeBanner: false,
         home: Scaffold(
           backgroundColor: kLighterWhite,
-          body: HomeScreen(),
+          body: const HomeScreen(),
           bottomNavigationBar: BottomNavigationBar(
             elevation: 0,
             type: BottomNavigationBarType.fixed,
@@ -78,7 +79,7 @@ class HomeScreen extends StatelessWidget {
 
     return SafeArea(
       child: ListView(
-        padding: const EdgeInsets.symmetric(horizontal: 30.0),
+        padding: const EdgeInsets.fromLTRB(30.0, 10.0, 30.0, 0.0),
         children: [
           Row(
             children: [
